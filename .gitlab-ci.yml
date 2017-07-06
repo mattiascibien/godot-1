@@ -1,3 +1,5 @@
+image: mattiascibien/godot-docker:latest
+
 stages:
   - build
 
