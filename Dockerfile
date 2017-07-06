@@ -1,8 +1,8 @@
 FROM debian:jessie-slim
 
-MAINTAINER Marius André Elsfjordstrand Beck <skaterase@gmail.com>
+MAINTAINER Mattias Cibien <mattias@mattiascibien.net>
 
-ARG GODOT_VERSION=2.1.2
+ARG GODOT_VERSION=2.1.3
 ARG GODOT_VARIANT=stable
 
 RUN apt-get update \
