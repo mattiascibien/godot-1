@@ -2,8 +2,8 @@ FROM debian:jessie-slim
 
 MAINTAINER Mattias Cibien <mattias@mattiascibien.net>
 
-ARG GODOT_VERSION=2.1.4
-ARG GODOT_VARIANT=stable
+ARG GODOT_VERSION=3.0
+ARG GODOT_VARIANT=beta1
 
 RUN apt-get update \
     && apt-get install -y wget unzip \
