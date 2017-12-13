@@ -1,6 +1,9 @@
 # Minimal Godot Engine Docker image
 
-This image is based on the slim version of the Debian jessie image. It provides the official Linux server 64-bit 2.1.2-stable build of Godot Engine along with the official templates.
+This image is based on the slim version of the Debian jessie image. It provides the official Linux server builds of Godot Engine along with the official templates of versions (with more to come):
+ * 2.1.3
+ * 2.1.4
+
 
 The primary application is for automating Godot Engine builds.
 
