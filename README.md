@@ -3,6 +3,7 @@
 This image is based on the slim version of the Debian jessie image. It provides the official Linux server builds of Godot Engine along with the official templates of versions (with more to come):
  * 2.1.3
  * 2.1.4
+ * 3.0.1
 
 
 The primary application is for automating Godot Engine builds.
