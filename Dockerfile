@@ -2,7 +2,7 @@ FROM debian:jessie-slim
 
 MAINTAINER Mattias Cibien <mattias@mattiascibien.net>
 
-ARG GODOT_VERSION=3.0.1
+ARG GODOT_VERSION=3.0.2
 ARG GODOT_VARIANT=stable
 
 RUN apt-get update \

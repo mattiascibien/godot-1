@@ -4,6 +4,7 @@ This image is based on the slim version of the Debian jessie image. It provides 
  * 2.1.3
  * 2.1.4
  * 3.0.1
+ * 3.0.2
 
 
 The primary application is for automating Godot Engine builds.
