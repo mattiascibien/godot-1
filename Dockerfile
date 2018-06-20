@@ -1,12 +1,12 @@
 FROM debian:jessie-slim
 
-MAINTAINER Mattias Cibien <mattias@mattiascibien.net>
+MAINTAINER Karl J. Overå <karl@karl.run>
 
-ARG GODOT_VERSION=3.0.2
+ARG GODOT_VERSION=3.0.3
 ARG GODOT_VARIANT=stable
 
 RUN apt-get update \
-    && apt-get install -y wget unzip \
+    && apt-get install -y wget unzip git ssh \
     && wget \
 "http://download.tuxfamily.org/godotengine/${GODOT_VERSION}/Godot_v${GODOT_VERSION}-${GODOT_VARIANT}_linux_server.64.zip" \
 "http://downloads.tuxfamily.org/godotengine/${GODOT_VERSION}/Godot_v${GODOT_VERSION}-${GODOT_VARIANT}_export_templates.tpz" \
